@@ -12,7 +12,7 @@ public interface LocationService {
 
 	void deleteLocation(Location location);
 
-	Location findLocationById(int id);
+	Location findLocationById(Long id);
 
 	List<Location> findAllLocations();
 

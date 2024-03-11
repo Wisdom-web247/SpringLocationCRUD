@@ -30,7 +30,7 @@ public class LocationServiceImpl implements LocationService {
 	}
 
 	@Override
-	public Location findLocationById(int id) {
+	public Location findLocationById(Long id) {
 		return repository.findById(id).get();
 	}
 
